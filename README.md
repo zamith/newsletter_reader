@@ -22,6 +22,12 @@ Or install it yourself as:
 
 Newsletter sender requires ruby 2.1 to work.
 
+Until [this](https://github.com/nu7hatch/gmail/pull/127) gets solved, you'll have to use my branch of the gem. Add this line to your Gemfile:
+
+```ruby
+gem 'gmail', github: 'zamith/gmail', branch: 'patch-1'
+```
+
 ## Usage
 
 Tag your newsletter emails with the label "newsletter" in your Gmail account.
