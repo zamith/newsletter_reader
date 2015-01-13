@@ -18,6 +18,10 @@ Or install it yourself as:
 
     $ gem install newsletter_reader
 
+## Dependencies
+
+Newsletter sender requires ruby 2.1 to work.
+
 ## Usage
 
 Tag your newsletter emails with the label "newsletter" in your Gmail account.
