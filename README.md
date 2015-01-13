@@ -1,6 +1,6 @@
 # NewsletterReader
 
-TODO: Write a gem description
+This gem helps with, well... reading newsletters on Gmail.
 
 ## Installation
 
@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Tag your newsletter emails with the label "newsletter" in your Gmail account.
+
+Get all of the newsletter links from your account with:
+
+```
+NewsletterReader.newsletters
+```
 
 ## Contributing
 
