@@ -3,10 +3,6 @@ require 'gmail'
 require 'mail'
 require 'nokogiri'
 require 'json'
-require 'dotenv'
-Dotenv.load
-
-require 'pry'
 
 require 'newsletter_reader/parser'
 require 'newsletter_reader/link'
